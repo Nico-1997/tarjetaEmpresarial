@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    margin-top: 30px;
+    background-color: #F2F5F9;
+    border-radius: 30px;
+    height: 530px;
+}
+
+.card .cardh {
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.card .img1 {
+    border-radius: 13px;
+    width: 430px;
+    height: 250px;
+}
+
+.card .cardp{
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 300px;
+    color: #677489;
+}
+
+.card footer{
+    display: grid;
+    grid-template-columns: 20px 200px;
+    grid-template-areas: 
+    "img autor autor"
+    "img customer customer"
+}
+
+.card .img2{
+    width:  35px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.card .autor {
+    display: inline;
+    margin-left: 60px;
+    color: #111729;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.card .customer{
+    margin-left: 60px;
+    font-size: 13px;
+    color: #677489;
+    margin-top: -15px;
+    grid-area: customer;
+}
